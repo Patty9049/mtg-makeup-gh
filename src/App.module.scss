@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&family=Open+Sans&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+*,
+main {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+main p {
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 12px;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-size: 12px;
+  }
+}
+
+header {
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}

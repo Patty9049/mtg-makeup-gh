@@ -1,0 +1,20 @@
+.galleryList {
+  padding: 0;
+  @media (max-width: 800px) and (min-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.galleryButton {
+  @media (max-width: 399px) and (min-width: 0) {
+    padding: 0;
+    margin: 10px;
+  }
+}

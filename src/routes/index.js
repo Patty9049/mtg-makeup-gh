@@ -1,0 +1,15 @@
+export const routes = {
+  home: "/",
+  offers: "/oferta",
+  makeupOffer: "/oferta-makijazowa",
+  myWorks: "/moje-prace",
+  singleWork: "/moj-makijaz/:workTitle",
+  vouchers: "/vouchery",
+  contact: "/kontakt",
+  indMakeup: "/makijaz-indywidualny",
+  indWeddMake: "/indywidualny-makijaz-slubny",
+  weddMake: "/makijaz-slubny",
+  training: "/szkolenia",
+  sunBathing: "/opalanie-natryskowe",
+  privacyPolicy: "/privacyPolicy",
+};

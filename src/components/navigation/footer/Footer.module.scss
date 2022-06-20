@@ -1,0 +1,38 @@
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  text-align: center;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  font-size: 38px;
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 24px;
+    margin: 0;
+    right: 0;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-size: 24px;
+    margin: 0;
+    right: 0;
+  }
+}
+footer svg {
+  color: white;
+  margin: 10px 50px;
+  @media (max-width: 399px) and (min-width: 0) {
+    margin: 5px 20px;
+  }
+}
+
+footer svg:hover {
+  color: grey 0.5;
+  visibility: 0.5;
+}

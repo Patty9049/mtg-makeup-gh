@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&family=Open+Sans&family=Playfair+Display&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  text-align: center;
+  @media (max-width: 800px) and (min-width: 400px) {
+    padding: 20px;
+  }
+  @media (max-width: 400px) and (min-width: 0) {
+    padding: 16px 5px;
+  }
+}
+.header_mainTitle {
+  margin-bottom: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 46px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 24px;
+    justify-content: center;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-size: 18px;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
+.header_smallTitle2 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 15px;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-weight: bolder;
+    font-size: 11px;
+  }
+}
+.header_smallTitle {
+  font-size: 29px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 15px;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-weight: bolder;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,36 @@
+.modal {
+  display: flex;
+  justify-content: center;
+}
+.makeStyles-modal-1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+div .makeStyles-modal-1 img {
+  margin: 0;
+  border: 3px solid red;
+}
+.modalImg {
+  border-radius: 5%;
+  margin: 30px;
+  @media (max-width: 800px) and (min-width: 400px) {
+    margin: 20px;
+    border-radius: 5%;
+    object-fit: cover;
+    width: 350px;
+    height: 450px;
+  }
+  @media (max-width: 400px) and (min-width: 0) {
+    margin: 3px;
+    border-radius: 5%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.modalImg:focus-visible {
+  outline-color: rgb(126, 2, 2);
+}

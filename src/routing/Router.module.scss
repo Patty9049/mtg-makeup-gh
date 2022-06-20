@@ -1,0 +1,21 @@
+main {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  margin-bottom: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  @media (max-width: 800px) and (min-width: 400px) {
+    max-width: 80vw;
+    margin-bottom: 5px;
+  }
+}
+h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}

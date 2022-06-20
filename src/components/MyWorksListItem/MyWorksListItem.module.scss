@@ -1,0 +1,27 @@
+.makeupPhoto {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  @media (max-width: 800px) and (min-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin: 50px;
+    padding: 0;
+    border-radius: 5%;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 350px;
+    height: 200px;
+    margin: 20px 20px;
+    padding: 0;
+    border-radius: 5%;
+  }
+}

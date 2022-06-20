@@ -1,0 +1,21 @@
+.indWeddMake p {
+  text-align: center;
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 14px;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-size: 12px;
+    padding: 0 20px;
+  }
+}
+h2 {
+  @media (max-width: 800px) and (min-width: 400px) {
+    font-size: 18px;
+  }
+  @media (max-width: 399px) and (min-width: 0) {
+    font-size: 16px;
+  }
+}
+.italicInfo {
+  font-style: italic;
+}
