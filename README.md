@@ -1,4 +1,4 @@
-# React SPA
+# React App
 
 Makeup artist business website.
 
