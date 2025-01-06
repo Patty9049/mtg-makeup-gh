@@ -2,7 +2,7 @@
 
 Makeup artist business website.
 
-## Live version: https://monikaturczynskagocko.com/
+## Live version: https://monikaturczynskagocko.pl/
 
 ## Technologies:
 
